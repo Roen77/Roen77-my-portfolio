@@ -1,0 +1,238 @@
+@media (max-width:1221px) {
+    section .inner{
+       width: 100%;
+    }
+    /* advantages */
+    .advantage .cards{
+        display: block;
+    }
+    .card-side-back li{
+        font-size: 20px;
+    }
+    .advantage .card{
+        margin: 30px auto;
+        width: 380px;
+        height: 500px;
+    }
+    .card-side-front .front_inner .img{
+        margin-bottom: 110px;
+    }
+}
+@media (max-width:960px) {
+    .home h1{
+        font-size: 90px;
+    }
+    .tit span{
+        font-size: 70px;
+    }
+    .tit span.gray{
+        margin-top: -30px;
+        font-size: 56px;
+    }
+    .skill .des .explain li{
+        font-size: 15px;
+    }
+    .title_area .img_bg{
+        width: 180px;
+    }
+    .projects img{
+        width: 50px;
+    }
+    .projects .project_card{
+        display: block;
+    }
+    .projects .card_img {
+        padding: 20px 0;
+        margin: 0 auto;
+        width: 100%;
+        height: 300px;
+    }
+    .projects .project_card .card_item{
+        margin-left: 0;
+    }
+    .phone_bg,
+    .phone_bg.music{
+        background-size: 80% auto;
+    }
+}
+@media (max-width:620px) {
+    .nav{
+        padding: 7px 5px 0;
+    }
+    .nav .inner{
+        width: 100%;
+    }
+    .nav ul li a{
+        width: 90%;
+        font-size: 13px;
+        padding: 5px;
+    }
+    .home h1{
+        padding: 17px;
+        font-size: 13vw;
+    }
+    .home p{
+        font-size: 3vw;
+    }
+    .title_area .img_bg{
+        width: 32%;
+    }
+    /* arrow */
+    .arrow{
+        height: 40px;
+    }
+    .introduce .step_text .sub_title,
+    .text_item p{
+        font-size: 18px;
+    }
+    .skill .contents{
+        padding-bottom: 220px;
+    }
+    .skill .contents .card_inner{
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column;
+        z-index: 800;
+    }
+    .skill .contents .card_inner.right .card_content{
+        position: static;
+    }
+    .skill .contents .card_content,
+    .skill .contents .card_inner.right .card_content{
+        margin-top: 13px;
+        width: 200px;
+        height: 200px;
+        font-size: 28px;
+    }
+    .skill .contents .card_inner.right .des{
+        position: relative;
+        top:0;
+        width: 100%;
+    }
+    .skill .contents .card_content::before,
+    .skill .contents .card_content::after{
+        font-size: 70px;
+    }
+    .skill .des{
+        width: 100%;
+    }
+    .skill .card_inner span{
+        top:0;
+    }
+    .skill .contents .line{
+        opacity: 0;
+    }
+    .skill .sub_title{
+        font-size: 14px;
+    }
+    .skill .des .explain li,
+    .skill .des .add{
+        font-size: 13px;
+    }
+    .skill .des .explain li br{
+        display: none;
+    }
+    .skill .des .add{
+        background-color: #f2f2f2;
+    }
+    .projects .project_card h2{
+        font-size: 25px;
+    }
+}
+@media (max-width:440px) {
+    .nav ul li a {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #fff;
+        border: 3px solid #3E72D7;
+        box-sizing: border-box;
+        font-size: 0;
+    }
+    .nav ul li::after{
+        display: block;
+        opacity: 0;
+    }
+    .nav ul li:hover::after{
+        opacity: 1;
+    }
+    /* title */
+    .tit span{
+        font-size: 17vw;;
+    }
+    .tit span.gray{
+        font-size: 14vw;
+    }
+    .advantage .card{
+        width: 85%;
+        height: 400px;
+    }
+    .card-side-front .front_inner{
+       font-size: 10vw;
+    }
+    .card-side-front .front_inner .img{
+        margin-bottom: 20px;
+    }
+    .card-side-back li{
+        font-size: 6vw;
+        padding: 5px 0;
+        background-size: 20px auto;
+    }
+    .card-side-front .down_arrow{
+        bottom: 37px;
+        height: 20px;
+    }
+    .phone_area .phone .phone_inner{
+        width: 250px;
+    }
+    .phone_area .app.menu{
+        margin-top: 20px;
+    }
+    .phone_area .phone p{
+        padding: 5px;
+        font-size: 13px;
+    }
+    .projects{
+        padding:40px 10px;
+    }
+    .myproject .pic{
+        width: 37px;
+        height: 37px;
+    }
+    .phone_area .phone .app.menu .pic{
+        width: 35px;
+        height: 35px;
+    }
+    .projects img{
+        width: 32px;
+    }
+    .projects .light{
+        top:-10px;
+    }
+    .projects .project_card .pic{
+        width: 55px;
+        height: 55px;
+        transform: translate(-5px,-5px);
+        -webkit-transform: translate(-5px,-5px);
+        -moz-transform: translate(-5px,-5px);
+        -ms-transform: translate(-5px,-5px);
+        -o-transform: translate(-5px,-5px);
+}
+    .projects .project_card .des{
+        font-size: 14px;
+    }
+    .projects .alert p{
+        font-size: 12px;
+    }
+    .projects .btns{
+        padding: 0;
+    }
+    .projects .point {
+        display: none;
+    }
+    .port_git{
+        font-size: 14px;
+    }
+}
